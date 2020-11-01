@@ -1,0 +1,51 @@
+.card{
+    width: 18%;
+    /*border: 1px solid;*/
+    padding-bottom: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 1rem 4.5rem 2rem 0;
+
+}
+
+.blueprint img{
+    width: 100%;
+}
+
+.description{
+    margin-left: 10px;
+}
+
+
+.outlined-button{
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+    font-size: 18px;
+}
+.outlined-button:hover{
+    background: #ff1744;
+    color: white;
+    border-color: #ff1744;
+}
+
+.plan-title{
+
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.plan-area{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
